@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic|Nunito:300,400);
+
+h1 {
+	font-family:"Nunito";
+	font-size:6rem;
+	font-weight:300;
+	letter-spacing:.1rem;
+	text-transform:uppercase
+}
+
+.redh1 {
+  	color: black; 
+}
+
+.blackh1 {
+  	color: red; 
+}
+
+h2 {
+	font-family:"Nunito";
+	font-size:3rem;
+	font-weight:300;
+	letter-spacing:.05rem;
+}
+

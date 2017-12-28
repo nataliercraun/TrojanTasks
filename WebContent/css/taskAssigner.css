@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic|Nunito:300,400);
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #444;
+	-webkit-font-smothing: antialiased; background: #f0f0f0;
+}
+h1 {
+	font-family:"Nunito";
+	font-size:6rem;
+	font-weight:300;
+	letter-spacing:.1rem;
+	text-transform:uppercase
+}
+.redh1 {
+  	color: black; 
+}
+.blackh1 {
+  	color: red; 
+}
+form {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+label {
+	color: #555;
+	display: inline-block;
+	margin-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+input {
+	
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	outline: none;
+}
+input[type=text] {
+	color: #777;
+	padding-left: 10px;
+	margin: 10px;
+	margin-top: 12px;
+	
+	width: 290px;
+	height: 35px;
+	border: 1px solid #f2c4c4;
+	border-radius: 2px;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f2c4c4;
+}
+input[type=submit]{
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #acd6ef;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e20b0b), to(#f73333));
+	background-image: -moz-linear-gradient(top left 90deg, #e20b0b 0%, #f73333 100%);
+	border-radius: 30px;
+	border: 1px solid #e20b0b;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+	cursor: pointer;
+}
+.assignIt {
+	display: block;
+	margin-left: 100px;
+}

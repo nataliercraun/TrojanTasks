@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic|Nunito:300,400);
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #444;
+	-webkit-font-smothing: antialiased; background: #f0f0f0;
+}
+#ll {
+	float: right;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #acd6ef;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e20b0b), to(#f73333));
+	background-image: -moz-linear-gradient(top left 90deg, #e20b0b 0%, #f73333 100%);
+	border-radius: 30px;
+	border: 1px solid #e20b0b;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+	cursor: pointer;
+}
+h1 {
+	font-family:"Nunito";
+	font-size:6rem;
+	font-weight:300;
+	letter-spacing:.1rem;
+	text-transform:uppercase
+}
+.redh1 {
+  	color: black; 
+}
+.blackh1 {
+  	color: red; 
+}
+#createAccount {
+	position: fixed, center;
+}
+#task{
+	font-weight: bold;
+	font-size: 35px;
+	color: #e20b0b;
+	position: fixed, center;
+	width: 340px;
+	height: 280px;
+	top: 50%;
+	left: 50%;
+	background: #f2c4c4;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+#taskassign {
+	position: fixed, right;
+	width: 340px;
+	height: 280px;
+	top: 50%;
+	left: 50%;	
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+#login {
+	position: fixed, left;
+	width: 340px;
+	height: 280px;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+form {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+label {
+	
+	text-align: right;
+	color: #555;
+	display: inline-block;
+	margin-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+	width: 80px;
+}
+input {
+	display:inline-block;
+	
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	outline: none;
+}
+input[type=text], 
+input[type=password], 
+input[type=email] {
+	horizontal-align:middle;
+	color: #777;
+	padding-left: 10px;
+	margin: 10px;
+	margin-top: 12px;
+	margin-left: 18px;
+	width: 290px;
+	height: 35px;
+	border: 1px solid #f2c4c4;
+	border-radius: 2px;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f2c4c4;
+}
+#lower {
+	background: #f2c4c4;
+	width: 100%;
+	height: 69px;
+	margin-top: 20px;
+}
+#createbutton{
+	width: 125px
+}
+input[type=submit]{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #acd6ef;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e20b0b), to(#f73333));
+	background-image: -moz-linear-gradient(top left 90deg, #e20b0b 0%, #f73333 100%);
+	border-radius: 30px;
+	border: 1px solid #e20b0b;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+	cursor: pointer;
+}
+#create {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 125px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #acd6ef;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e20b0b), to(#f73333));
+	background-image: -moz-linear-gradient(top left 90deg, #e20b0b 0%, #f73333 100%);
+	border-radius: 30px;
+	border: 1px solid #e20b0b;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+	cursor: pointer;
+}
+p a {
+	font-size: 11px;
+	color: #aaa;
+	float: right;
+	margin-top: -13px;
+	margin-right: 20px;
+}
+p a:hover {
+	color: #555;
+}
